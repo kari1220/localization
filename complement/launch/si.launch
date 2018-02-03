@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<launch>
+    <rosparam file="/home/amsl/ros_catkin_ws/params/run_test/si_init_pose.yaml" />
+	<!-- <node name="si_local" pkg="complement" type="si_local" output="screen" /> -->
+	<node name="si_local" pkg="complement" type="si_local"  />
+</launch>
+

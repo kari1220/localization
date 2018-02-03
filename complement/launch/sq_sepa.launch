@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<launch>
+	<rosparam file="$(find params)/run_test/init_pose.yaml" />
+	<!-- <node name="q_sq_local" pkg="complement" type="q_sq_local" output="screen" /> -->
+	<node name="q_sq_local" pkg="complement" type="q_sq_local" />
+</launch>
+

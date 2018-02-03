@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<launch>
+	<rosparam file="$(find params)/run_test/init_pose.yaml" />
+	<node name="lcl" pkg="complement" type="lcl_manage" output="screen" />
+</launch>
+
